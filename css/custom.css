@@ -1,3 +1,12 @@
+/* Wrapper */
+.wrapper {
+	width: 980px;
+}
+
+.active.boxed {
+	width: 1050px;
+}
+
 /* Navbar */
 	/* search */
 .search-nav input {
@@ -21,4 +30,26 @@ select {
 
 input.button {
 	margin-top: 10px;
+}
+
+/* Owl */
+.owl-controls .owl-nav .owl-prev, .owl-controls .owl-nav .owl-next {
+	border-color: transparent;
+	background-color: #256dc1;
+	color: #fff;
+	box-shadow: 0 3px 3px rgba(0,0,0,.2);
+}
+.owl-controls .owl-nav .owl-prev:hover, .owl-controls .owl-nav .owl-next:hover {
+	border-color: transparent;
+	background-color: #fff;
+	color: black;
+	box-shadow: 0 3px 3px rgba(0,0,0,.2);
+}
+
+.owl-controls .owl-nav .owl-prev, .owl-controls .owl-nav .owl-prev:hover {
+	margin-right: -20px;
+}
+
+.owl-controls .owl-nav .owl-next, .owl-controls .owl-nav .owl-next:hover {
+	margin-left: -20px;
 }
