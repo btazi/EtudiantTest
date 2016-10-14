@@ -1,10 +1,12 @@
 /* Wrapper */
-.wrapper {
-	width: 980px;
-}
+@media(min-width: 980px){
+	.wrapper {
+		width: 980px;
+	}
 
-.active.boxed {
-	width: 1050px;
+	.active.boxed {
+		width: 1050px;
+	}
 }
 
 /* Navbar */
