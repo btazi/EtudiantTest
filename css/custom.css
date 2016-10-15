@@ -1,17 +1,35 @@
 /* Wrapper */
 @media(min-width: 980px){
 	.wrapper {
-		width: 980px;
+		width: 950px;
 	}
 
 	.active.boxed {
-		width: 1050px;
+		width: 980px;
 	}
 
 	.ot-menu-will-follow .boxed.active .is-now-following .main-menu-placeholder {
-		width: 1050px;
+		width: 980px;
 	}
 }
+
+	/* Left Banner */
+#banner-position {
+	position: relative;
+}
+ #left-banner {
+	 position: absolute;
+	 top: -46px;
+	 left: -171px;
+ }
+
+	/* Right Banner */
+ #right-banner {
+	 position: absolute;
+	 top: -46px;
+	 left: 965px;
+	 width: 156px;
+ }
 
 /* Navbar */
 	/* search */
@@ -24,7 +42,7 @@
 }
 
 .widget-split {
-	max-width: 254px;
+	max-width: 244px;
 }
 
 /* Home Page */
