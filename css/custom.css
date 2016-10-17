@@ -45,6 +45,14 @@
 	max-width: 244px;
 }
 
+.widget>ul.menu li:before {
+	content: none;
+}
+
+#main-menu .widget>ul.menu li a {
+	white-space: normal;
+}
+
 /* Home Page */
 .portus-article-slider-big .item-photo:before {
 	box-shadow: inset 0 -300px 200px -200px rgba(0,0,0,.6);
